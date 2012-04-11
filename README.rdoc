@@ -515,7 +515,6 @@ For Formtastic 2, define a custom input class:
 
       def collection_from_enum
         @object.enums(method.to_sym).try(:select_options) || []
-        choices = enum ? enum.select_options : []
       end
     end
 
