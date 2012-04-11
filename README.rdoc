@@ -502,7 +502,7 @@ Second, do not forget to add the +enum_attr+ macro to the generated model and mi
   
 === Formtastic integration
 
-You can make Formtastic generate a select with the enum value filled in. 
+You can make Formtastic generate a select with the enum values filled in automatically. 
 
 For Formtastic 2, define a custom input class:
 
